@@ -31,7 +31,7 @@ fn hello_world() {
     println!("--------------------END HELLO WORLD----------------------");
 }
 
-//This function takes to i32 arguments and returns an i32
+//This function takes two i32 arguments and returns an i32
 fn add(x: i32, y: i32) -> i32 {
     println!("--------------------BEGIN ADD--------------------");
     //You can use ```return x+y;```, but it is not recommended for small functions like this.
